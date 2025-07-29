@@ -18,9 +18,9 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                         className="md:hidden flex flex-col justify-between w-8 h-6 cursor-pointer z-50"
                         onClick={() => setMenuOpen(prev => !prev)}
                     >
-                        <span className="block h-1 w-full bg-white rounded"></span>
-                        <span className="block h-1 w-full bg-white rounded"></span>
-                        <span className="block h-1 w-full bg-white rounded"></span>
+                        <span className="block h-1 w-full bg-black rounded"></span>
+                        <span className="block h-1 w-full bg-black rounded"></span>
+                        <span className="block h-1 w-full bg-black rounded"></span>
                     </div>
 
 
